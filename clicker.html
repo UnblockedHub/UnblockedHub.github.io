@@ -766,8 +766,8 @@ Buy=function(what)
 	Buyables[what].Buy();
 }
 
-new Buyable('Cursor','Autoclicks every 5 seconds.','cursoricon',15,function(){Cursors++;});
-new Buyable('Grandma','A nice grandma to bake more cookies.','grandmaicon',100,function(buy)
+new Buyable('Cursor','Autofinger every 5 seconds.','cursoricon',15,function(){Cursors++;});
+new Buyable('Grandma','A nice hoe to make more roy','grandmaicon',100,function(buy)
 {
 	if (buy) Grandmas++;
 	var str='';
@@ -787,7 +787,7 @@ new Buyable('Grandma','A nice grandma to bake more cookies.','grandmaicon',100,f
 	}
 	l('grandmas').innerHTML=str;
 });
-new Buyable('Factory','Produces large quantities of cookies.','factoryicon',500,function(buy)
+new Buyable('Factory','Produces large quantities of roy.','factoryicon',500,function(buy)
 {
 	if (buy) Factories++;
 	if (buy && Factories==1) Buyables['Grandma'].func();
@@ -800,7 +800,7 @@ new Buyable('Factory','Produces large quantities of cookies.','factoryicon',500,
 	}
 	l('factories').innerHTML=str;
 });
-new Buyable('Mine','Mines out cookie dough and chocolate chips.','mineicon',2000,function(buy)
+new Buyable('Mine','Mines out roy roy and royies chips.','mineicon',2000,function(buy)
 {
 	if (buy) Mines++;
 	if (buy && Mines==1) Buyables['Grandma'].func();
@@ -813,7 +813,7 @@ new Buyable('Mine','Mines out cookie dough and chocolate chips.','mineicon',2000
 	}
 	l('mines').innerHTML=str;
 });
-new Buyable('Shipment','Brings in fresh cookies from the cookie planet.','shipmenticon',7000,function(buy)
+new Buyable('Shipment','Brings in fresh roys from the gay roy planet.','shipmenticon',7000,function(buy)
 {
 	if (buy) Shipments++;
 	if (buy && Shipments==1) Buyables['Grandma'].func();
@@ -826,7 +826,7 @@ new Buyable('Shipment','Brings in fresh cookies from the cookie planet.','shipme
 	}
 	l('shipments').innerHTML=str;
 });
-new Buyable('Alchemy lab','Turns gold into cookies!','labicon',50000,function(buy)
+new Buyable('Alchemy lab','Turns gold into roys!','labicon',50000,function(buy)
 {
 	if (buy) Labs++;
 	if (buy && Labs==1) Buyables['Grandma'].func();
@@ -839,7 +839,7 @@ new Buyable('Alchemy lab','Turns gold into cookies!','labicon',50000,function(bu
 	}
 	l('labs').innerHTML=str;
 });
-new Buyable('Portal','Opens a door to the Cookieverse.','portalicon',1000000,function(buy)
+new Buyable('Portal','Opens a door to the roy bumholes.','portalicon',1000000,function(buy)
 {
 	if (buy) Portals++;
 	if (buy && Portals==1) Buyables['Grandma'].func();
@@ -866,7 +866,7 @@ new Buyable('Time machine','<span style="font-size:80%;">Brings cookies from the
 	l('times').innerHTML=str;
 });
 
-new Buyable('Elder Pledge','<span style="font-size:80%;">u gay Ancients\' wrath, at least for a while.</span>','pledgeicon',666666,function(buy)
+new Buyable('Elder Pledge','<span style="font-size:80%;">u gay Ancients\' gayroyroy.</span>','pledgeicon',666666,function(buy)
 {
 	if (buy) {Pledge*=2;Pledge+=30*60*10;}
 	if (buy) Buyables['Grandma'].func();
