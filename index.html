@@ -1,12 +1,7 @@
  <!DOCTYPE html>
   <html>
   <head>
-      <link rel="stylesheet" href="./css/jquery.flipster.min.css">
       <link rel="stylesheet" href="./css/materialize.min.css">
-      <link rel="stylesheet" type="text/css" href="css/material-icons.css">
-      <!--Import your style sheets here-->
-      <link rel="stylesheet" href="./css/styles.css">
-
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta name="keywords" content="unblock game, unblocked games, games, online, unblock, unblocked, unblockedhub">
@@ -15,7 +10,8 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
+      <script src="js/jquery/jquery.min.js"></script>
+      <script src="js/jquery/jquery.widget.min.js"></script>
   </head>
     <body>
       <div class="navbar-fixed">
@@ -37,7 +33,14 @@
       <div class="container">
         <a href="http://ouo.io/ref/CQdO1bbK"><img src="http://ouo.io/images/banners/r2.jpg" title="ouo.io - Make short links and earn the biggest money" style="margin-left:auto; margin-right:auto; margin-top: 10px; display: block;width:480px;height:60px;border:0;"/></a>
       <br>
-        <div id="Images" style="width: 1030px;margin-left: auto; margin-right: auto; display:block">
+        <div id='images' style="width: 1030px;margin-left: auto; margin-right: auto;">
+        <div class="bannerimages">
+        <a href='games.html'title="Projects"><img src="projects.jpg" alt="Games" style="width:340px;height:155px;border:0;"></a>
+        <a href='about.html'title="About"><img src="about.jpg" alt="Trendings" style="width:340px;height:155px;border:0;"></a>  
+        <a href='show.html'title="Free movies and TV"><img src="movies.jpg" alt="movies" style="width:340px;height:155px;border:0;"></a>
+        </div>
+      </div>
+      <div id='images2' style="margin-left: 120px;">
         <div class="bannerimages">
         <a href='games.html'title="Projects"><img src="projects.jpg" alt="Games" style="width:340px;height:155px;border:0;"></a>
         <a href='about.html'title="About"><img src="about.jpg" alt="Trendings" style="width:340px;height:155px;border:0;"></a>  
@@ -72,6 +75,18 @@
       <a href='https://www.stat-counter.org/'>Free Visitor/Stat Counter</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=5c8bc0fabaed80d80e4edc76bde4611724e2d722'></script>
       <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/881477/t/0"></script> 
       </div>
+      <style>
+        @media screen and (max-width: 1030px) {
+          #images{
+            display:none;
+          }
+        }
+        @media screen and (min-width: 740px) {
+          #images2{
+            display:none;
+          }
+        }
+    </style>
       </div>
     </body>
   </html>
